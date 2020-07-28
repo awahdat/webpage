@@ -13,8 +13,8 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-site-header {
-	border-bottom: 1px solid #d5d5d5;
+main-navigation {
+    border-bottom: 1px solid #d5d5d5;
 }
 a {
     text-decoration: none;
