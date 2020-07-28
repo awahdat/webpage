@@ -13,9 +13,6 @@ nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
 }
-main-navigation {
-    border-bottom: 1px solid #d5d5d5;
-}
 a {
     text-decoration: none;
     color: #999;
@@ -34,6 +31,7 @@ p {
 }
 footer {
     border-top: 1px solid #d5d5d5;
+    border-bottom: 1px solid #d5d5d5;
     font-size: .8em;
 }
 
