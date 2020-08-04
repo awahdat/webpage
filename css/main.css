@@ -26,8 +26,7 @@ a:hover {
 }
 .btn { font-size: 18px; 
     padding: 14px 24px;
-  background-color: white;
-  border-color: #d5d5d5;
+  background-color: none;
   border: 3px solid #d5d5d5;
   border-radius: 5px;
   float: right;
