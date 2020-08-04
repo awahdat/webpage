@@ -24,6 +24,7 @@ a {
 a:hover {
     text-decoration: underline #F4A460;
 }
+.btn { font-size: 21px; padding: 14px 24px; }
 h1 {
     font-size: 2.2em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
