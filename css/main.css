@@ -24,7 +24,9 @@ a {
 a:hover {
     text-decoration: underline #F4A460;
 }
-.btn { font-size: 20px; padding: 14px 24px;
+.btn { font-size: 18px; 
+    padding: 14px 24px;
+  background-color: white;
   border-color: #d5d5d5;
   border: 4px;
   border-radius: 5px;
