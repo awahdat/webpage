@@ -1,7 +1,5 @@
 name: Ahmad Zia Wahdat
 markdown: kramdown
 baseurl: ""
-plugins: 
-  - jekyll-sitemap
 
 
