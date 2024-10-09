@@ -1,6 +1,5 @@
 ---
 author: Ahmad Zia Wahdat
-description: Hurricane Milton: Search Volume Growth for "Breakout" Terms using Google Trends Data
 ---
 
 As Hurricane Milton is set to make landfall on [Wednesday night](https://www.nhc.noaa.gov/archive/2024/MILTON.shtml?), I reviewed Google Trends data to see what concerns Floridians the most during these challenging times. I restricted the search around terms (i) Milton, (ii) Gas, (iii) Food and zoomed into "breakout" terms (see figure below) that have a search volume growth of more than 5000%. Key findings:
