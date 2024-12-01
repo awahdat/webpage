@@ -1,0 +1,15 @@
+---
+author: Ahmad Zia Wahdat
+---
+
+Remember the empty shelves during the COVID-19 pandemic? Or perhaps you have seen people rushing to stock up before a hurricane? Or perhaps that one excited consumer stocking up ten boxes of pasta on sale on a given weekday? While grocery stockpiling often gets bad press, [my new research study](https://doi.org/10.1111/cjag.12379) with Dr. Jayson Lusk suggests there is actually logic behind stockpiling behavior.
+
+In a laboratory shopping experiment with students from Purdue University, our study explored three key scenarios that trigger stockpiling behavior, each revealing something important about how consumers shop. First, when shopping becomes more difficult or costly, it triggers stockpiling. Think about the pandemic when going to stores became risky and time-consuming, or during natural disasters when traveling to stores is challenging. When the "fixed cost" of making a shopping trip goes up (in terms of time, effort, or risk), consumers naturally buy more in each trip to avoid making frequent visits. Our study shows that when fixed cost of shopping increases by 10%, the amount of grocery buying increases by about 17% – a substantial change in buying behavior.
+
+The second scenario that prompts stockpiling is one we are all familiar with: price reductions. When there is a good sale, consumers stock up on items they know they will use later. It is a natural way to save money in the long run, and our research shows that when prices drop by 10%, consumers respond by buying about 16% more. This nearly matches the buying increase when fixed cost of shopping increases, suggesting that financial incentives are just as powerful as shopping constraints in driving stockpiling behavior.
+
+Perhaps the most intriguing finding relates to the third scenario, that is, the impact of purchase limits. When stores impose restrictions on how many items each consumer can buy, it can actually backfire in unexpected ways. Our study finds that while purchase limits do reduce grocery buying per shopping trip by about 5%, they often lead consumers to stockpile during shopping trips when there are no purchase limits in store. This suggests that purchase limits, while well-intentioned, might not be the most effective solution during shortages and could trigger stockpiling.
+
+Our research findings have implications for both consumers and retailers. For consumers, the results validate that stockpiling is a rational response to changing circumstances. Whether facing increased shopping difficulties, taking advantage of good prices, or dealing with purchase restrictions, consumers often make logical decisions based on their situation.
+
+For retailers, this research provides insights for managing inventory and creating effective policies during emergencies. Our study suggests that implementing purchase limits might not be the best solution during shortages, as it could actually exacerbate the problem by encouraging more shopping trips or shifting stockpiling behavior to other time periods. Instead, stores might need to focus on maintaining consistent availability and managing their supply chains effectively.
