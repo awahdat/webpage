@@ -3,7 +3,7 @@ author: Ahmad Zia Wahdat
 title: How much would Trump's tariffs cost you?
 ---
 
-On February 1, 2025, President Donald J. Trump announced to implement 25 percent tariffs on imports from Canada and Mexico, 10 percent additional tariffs on imports from China. Energy imports from Canada at limited to 10 percent tariffs [The White House](https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-imposes-tariffs-on-imports-from-canada-mexico-and-china/).
+On February 1, 2025, President Donald J. Trump announced to implement 25 percent tariffs on imports from Canada and Mexico, and 10 percent additional tariffs on imports from China. Meanwhile, energy imports from Canada are limited to 10 percent tariffs. [The White House](https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-imposes-tariffs-on-imports-from-canada-mexico-and-china/)
 
 Using the calculations of [Clausing and Lovely (2025)](https://www.piie.com/research/piie-charts/2025/trumps-tariffs-canada-mexico-and-china-would-cost-typical-us-household) based on the consumption and income of American households, I am providing the following calculator to help Americans understand the cost of tariffs they have to pay for. You can think of it as an increase in your income tax.   
 
