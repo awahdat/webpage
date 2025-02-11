@@ -94,3 +94,7 @@ Enter your after-tax income:
   updateChart(); // Initial render
 </script>
 
+
+### Trump's Tariff Burden by Sociodemographics
+
+<div style="min-height:443px" id="datawrapper-vis-t3OVa"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/t3OVa/embed.js" charset="utf-8" data-target="#datawrapper-vis-t3OVa"></script><noscript><img src="https://datawrapper.dwcdn.net/t3OVa/full.png" alt="Trump's Tariff Burden for a Median Household, by Demographics. Using after-tax median income: Census 2023 " /></noscript></div>
