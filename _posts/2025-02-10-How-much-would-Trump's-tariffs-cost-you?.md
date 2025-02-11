@@ -53,7 +53,7 @@ Enter your after-tax income:
     // Chart properties
     const barWidth = 120;
     const barSpacing = 80;
-    const startX = 50;
+    const startX = 30;
     const maxHeight = 180;
     const maxTax = Math.max(userTax, medianTax);
     
@@ -64,7 +64,7 @@ Enter your after-tax income:
     ctx.strokeStyle = "#333";
     ctx.lineWidth = 2;
     ctx.beginPath();
-    ctx.moveTo(40, 250);
+    ctx.moveTo(20, 250);
     ctx.lineTo(380, 250);
     ctx.stroke();
 
