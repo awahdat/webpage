@@ -12,7 +12,7 @@ Enter your after-tax income:
 <input type="number" id="incomeInput" value="50000" min="0" step="1000">
 <button onclick="updateChart()">Calculate</button>
 
-<canvas id="taxChart" width="400" height="300"></canvas>
+<canvas id="taxChart" width="400" height="300" style="width: 400px; height: 300px;"></canvas>
 
 <script>
   function calculateTaxBurden(income) {
@@ -25,7 +25,7 @@ Enter your after-tax income:
            income <= 105500 ? income * 0.015073 :
            income <= 132600 ? income * 0.013664 :
            income <= 181800 ? income * 0.013647 :
-           income <= 237200 ? income * 0.010883 :  income * 0.010883 ;
+           income <= 237200 ? income * 0.010883 : income * 0.010883 ;
   }
 
   function updateChart() {
@@ -42,30 +42,53 @@ Enter your after-tax income:
     const canvas = document.getElementById("taxChart");
     const ctx = canvas.getContext("2d");
 
+    // Scale up for better resolution
+    const scale = 2;
+    canvas.width = 400 * scale;
+    canvas.height = 300 * scale;
+    ctx.scale(scale, scale);
+
     ctx.clearRect(0, 0, canvas.width, canvas.height);
 
     // Chart properties
-    const barWidth = 100;
-    const barSpacing = 50;
+    const barWidth = 120;
+    const barSpacing = 80;
     const startX = 50;
-    const maxHeight = 200;
+    const maxHeight = 180;
     const maxTax = Math.max(userTax, medianTax);
     
     const userBarHeight = (userTax / maxTax) * maxHeight;
     const medianBarHeight = (medianTax / maxTax) * maxHeight;
 
+    // Add axis
+    ctx.strokeStyle = "#333";
+    ctx.lineWidth = 2;
+    ctx.beginPath();
+    ctx.moveTo(40, 250);
+    ctx.lineTo(380, 250);
+    ctx.stroke();
+
+    // Style and Draw Bars
     ctx.fillStyle = "steelblue";
-    ctx.fillRect(startX, canvas.height - userBarHeight - 30, barWidth, userBarHeight);
-    ctx.fillText("Your Tariff Burden", startX + 7, canvas.height - 5);
-
+    ctx.fillRect(startX, 250 - userBarHeight, barWidth, userBarHeight);
+    
     ctx.fillStyle = "darkred";
-    ctx.fillRect(startX + barWidth + barSpacing, canvas.height - medianBarHeight - 30, barWidth, medianBarHeight);
-    ctx.fillText("Tariff Burden at Median Income", startX + barWidth + barSpacing -20, canvas.height - 5);
+    ctx.fillRect(startX + barWidth + barSpacing, 250 - medianBarHeight, barWidth, medianBarHeight);
 
+    // Labels
     ctx.fillStyle = "black";
-    ctx.fillText(`$${userTax.toFixed(2)}`, startX + 20, canvas.height - userBarHeight - 35);
-    ctx.fillText(`$${medianTax.toFixed(2)}`, startX + barWidth + barSpacing + 10, canvas.height - medianBarHeight - 35);
+    ctx.font = "16px Arial";  
+    ctx.textAlign = "center";
+    ctx.textBaseline = "middle";
+
+    ctx.fillText("Your Tariff Burden", startX + barWidth / 2, 270);
+    ctx.fillText("Tariff Burden at Median Income", startX + barWidth + barSpacing + barWidth / 2, 270);
+
+    // Tax amount labels
+    ctx.fillText(`$${userTax.toFixed(2)}`, startX + barWidth / 2, 250 - userBarHeight - 15);
+    ctx.fillText(`$${medianTax.toFixed(2)}`, startX + barWidth + barSpacing + barWidth / 2, 250 - medianBarHeight - 15);
   }
 
   updateChart(); // Initial render
 </script>
+
