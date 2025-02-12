@@ -5,7 +5,7 @@ title: How much would Trump's tariffs cost you?
 
 On February 1, 2025, President Donald J. Trump announced to implement 25 percent tariffs on imports from Canada and Mexico, and 10 percent additional tariffs on imports from China. Meanwhile, energy imports from Canada are limited to 10 percent tariffs. [The White House](https://www.whitehouse.gov/fact-sheets/2025/02/fact-sheet-president-donald-j-trump-imposes-tariffs-on-imports-from-canada-mexico-and-china/)
 
-Using the calculations of [Clausing and Lovely (2025)](https://www.piie.com/research/piie-charts/2025/trumps-tariffs-canada-mexico-and-china-would-cost-typical-us-household) based on the consumption and income of American households, I am providing the following calculator to help Americans understand the cost of tariffs they have to pay for. You can think of it as an increase in your income tax.   
+Using the calculations of [Clausing and Lovely (2025)](https://www.piie.com/research/piie-charts/2025/trumps-tariffs-canada-mexico-and-china-would-cost-typical-us-household) based on the consumption and income of American households, I am providing the following calculator to help Americans understand the cost of tariffs they have to pay for. Basically, a portion of the after-tax income will go to higher prices due to the tariffs.   
 
 ### Trump's Tariff Burden Calculator
 
@@ -98,6 +98,8 @@ Enter your after-tax income:
 
 <br/><br/>
 
-### The following chart shows Trump's tariff burden by Sociodemographics
+### Trump's tariff burden across demographic groups
+
+The following chart shows Trump's tariff burden across demographic groups (in terms of dollars). It is to be noted that the tariff burden is regressive because lower-income households allocate a higher share of their after-tax income to consumption. The chart shows significant disparities in the tariff burden across demographic groups. For example, married couples, Asian households, those in the 35-44 age bracket, urban residents, and households with higher education will face the highest tariff burden. 
 
 <div style="min-height:1236px" id="datawrapper-vis-NVi0G"><script type="text/javascript" defer src="https://datawrapper.dwcdn.net/NVi0G/embed.js" charset="utf-8" data-target="#datawrapper-vis-NVi0G"></script><noscript><img src="https://datawrapper.dwcdn.net/NVi0G/full.png" alt="Trump's Tariff Burden for a Median Household, by Demographics. Using after-tax median income: Census 2023 " /></noscript></div>
